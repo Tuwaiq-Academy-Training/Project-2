@@ -7,14 +7,14 @@ Create E-commerce website where users can buy products ( amazon clone ) by the m
 Classes Domains :
 
 E-commerce Website :
-Product Class: ID, name, price , categoryID , ArrayList < Comment >.
-Category : ID , name.
-Merchant : ID , name.
-MerchantStock : ID , productid , merchantid , stock
-Cart class: ID, userid, ArrayList < Product >.
-User Class : id , username , password , email , role , balance.
-Comment  : id, userid , message , rate
-PurchaseHistory : id , userid , productid , price
+- Product Class: ID, name, price , categoryID , ArrayList < Comment >.
+- Category : ID , name.
+- Merchant : ID , name.
+- MerchantStock : ID , productid , merchantid , stock
+- Cart class: ID, userid, ArrayList < Product >.
+- User Class : id , username , password , email , role , balance.
+- Comment  : id, userid , message , rate
+- PurchaseHistory : id , userid , productid , price
 
 
 ----------
