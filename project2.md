@@ -93,30 +93,32 @@ PurchaseHistory Class :
         - this endpoint should accept a userid and productid both should be valid or return bad request 
 
 
-- Create endpoint where user can remove product to  a cart
+- Create endpoint where user can remove product from  a cart
         - this endpoint should accept a userid and productid both should be valid or return bad request
 - Create endpoint where user can add product to a merchantStock
         - this endpoint should accept a userid and merchantid  and stock
 
 
-- Create endpoint where user can buy a a product  directly without a cart
-        - this endpoint should accept userid , product id , merchantid
-        - check if the merchant have the product in stock or return bad request
-        - reduce the stock from the MerchantStock , deducted the price of the product from the user balance.
+- Create endpoint where user can buy a product directly without a cart
+        - this endpoint should accept userid , product id , merchantid.
+        - check if the merchant have the product in stock or return bad request.
+        - reduce the stock from the MerchantStock.
+        - deducted the price of the product from the user balance.
         - if balance is less than the product price return bad request.
-        - add to the PurchaseHistory about this purchase
+        - add to the PurchaseHistory about this purchase.
 
 
 - Create endpoint where user can buy a a product with a cart
-        - this endpoint should accept a cart object
+        - this endpoint should accept a cart object.
         - the user should have the balance to buy all the products.
-        - check if the merchant have the product in stock or return bad request
-        - reduce the stock from the MerchantStock , deducted the price of the product from the user balance.
-        - add to the PurchaseHistory about this purchase
+        - check if the merchant have the product in stock or return bad request.
+        - reduce the stock from the MerchantStock. 
+        - deducted the price of the product from the user balance.
+        - add to the PurchaseHistory about this purchase.
 
 
 - Create endpoint where user can post comment on product
-        - this endpoint should accept userid , product id , comment object
+        - this endpoint should accept user id , product id , comment object
         - verify that the user bought the product before or return bad request
 
 
