@@ -1,7 +1,6 @@
-تمارين اليوم الخامس
 
 
-Create E-commerce website where users can buy products ( amazon clone ) by the money they have in the bank website.
+Create E-commerce website where users can buy products ( amazon clone )
 
 
 Classes Domains :
