@@ -23,49 +23,49 @@ E-commerce Website :
 Validation : 
 
 Product Class :
-id ( must not be empty , have to be 3 character long ).
-name ( must not be empty , have to be 3 length long ).
-price ( must not be empty , must be positive number  ).
-categoryID ( must not be empty , have to be 3 character long ).
+- id ( must not be empty , have to be 3 character long ).
+- name ( must not be empty , have to be 3 length long ).
+- price ( must not be empty , must be positive number  ).
+- categoryID ( must not be empty , have to be 3 character long ).
 
 Category Class :
-id ( must not be empty , have to be 3 character long ).
-name ( must not be empty , have to be 3 length long ).
+- id ( must not be empty , have to be 3 character long ).
+- name ( must not be empty , have to be 3 length long ).
 
 Merchant Class :
-id ( must not be empty , have to be 3 character long ).
-name ( must not be empty , have to be 3 length long ).
+- id ( must not be empty , have to be 3 character long ).
+- name ( must not be empty , have to be 3 length long ).
 
 MerchantStock Class :
-id ( must not be empty , have to be 3 character long ).
-productid ( must not be empty , have to be 3 character long ).
-merchantid ( must not be empty , have to be 3 length long ).
-stock  ( must not be empty , have to be more than 10 at start ).
+- id ( must not be empty , have to be 3 character long ).
+- productid ( must not be empty , have to be 3 character long ).
+- merchantid ( must not be empty , have to be 3 length long ).
+- stock  ( must not be empty , have to be more than 10 at start ).
 
 Cart Class :
-id ( must not be empty , have to be 3 character long ).
-userid ( must not be empty , have to be 3 character long ).
-ArrayList < Product > ( initialize in the constructor ).
+- id ( must not be empty , have to be 3 character long ).
+- userid ( must not be empty , have to be 3 character long ).
+- ArrayList < Product > ( initialize in the constructor ).
 
 User Class : 
-id ( must not be empty , have to be 3 character long ).
-username ( must not be empty , have to be 5 length long ).
-password ( must not be empty , have to be 6 length long , must have characters and digits ).
-email  ( must not be empty , must be valid email ).
-role  ( must not be empty , have to be in ( “Admin”,”Customer”) ).
-balance ( must not be empty , have to be positive ).
+- id ( must not be empty , have to be 3 character long ).
+- username ( must not be empty , have to be 5 length long ).
+- password ( must not be empty , have to be 6 length long , must have characters and digits ).
+- email  ( must not be empty , must be valid email ).
+- role  ( must not be empty , have to be in ( “Admin”,”Customer”) ).
+- balance ( must not be empty , have to be positive ).
 
 Comment Class : 
-id ( must not be empty , have to be 3 character long ).
-userid ( must not be empty , have to be 5 length long ).
-message  ( must not be empty , have to be 6 length long  ).
-rate ( must not be empty , must be a number between 1 - 5 ).
+- id ( must not be empty , have to be 3 character long ).
+- userid ( must not be empty , have to be 5 length long ).
+- message  ( must not be empty , have to be 6 length long  ).
+- rate ( must not be empty , must be a number between 1 - 5 ).
 
 PurchaseHistory Class : 
-id ( must not be empty , have to be 3 character long ).
-userid ( must not be empty , have to be 3 character long ).
-productid  ( must not be empty , have to be 3 character long  ).
-price ( must not be empty , must be a positive number ).
+- id ( must not be empty , have to be 3 character long ).
+- userid ( must not be empty , have to be 3 character long ).
+- productid  ( must not be empty , have to be 3 character long  ).
+- price ( must not be empty , must be a positive number ).
 
 
 - Use project Lombok 
