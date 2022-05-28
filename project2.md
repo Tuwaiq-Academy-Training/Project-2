@@ -96,7 +96,7 @@ PurchaseHistory Class :
 - this endpoint should accept a userid and productid both should be valid or return bad request
 ----------
 - Create endpoint where user can add product to a merchantStock
-- this endpoint should accept a userid and merchantid  and stock
+- this endpoint should accept a productid and merchantid  and stock
 ----------
 - Create endpoint where user can buy a product directly without a cart
 - this endpoint should accept userid , product id , merchantid.
