@@ -2,11 +2,10 @@ Create E-commerce website where users can buy products ( amazon clone )
 Classes Domains :
 E-commerce Website :
 
-- Product Class: ID, name, price , categoryID , ArrayList < Comment >.
+- Product Class: ID, name, price , categoryID 
 - Category : ID , name.
 - Merchant : ID , name.
 - MerchantStock : ID , productid , merchantid , stock
-- Cart class: ID, userid, ArrayList < Product >.
 - User Class : id , username , password , email , role , balance.
 ----------
 
@@ -35,12 +34,6 @@ MerchantStock Class :
 - merchantid ( must not be empty , have to be 3 length long ).
 - stock ( must not be empty , have to be more than 10 at start ).
 
-Cart Class :
-
-- id ( must not be empty , have to be 3 character long ).
-- userid ( must not be empty , have to be 3 character long ).
-- ArrayList < Product > ( initialize in the constructor ).
-
 User Class :
 
 - id ( must not be empty , have to be 3 character long ).
@@ -57,15 +50,12 @@ User Class :
 - Create endpoint for getting and adding and deleting updating a Merchant.
 - Create endpoint for getting and adding and deleting updating a MerchantStock.
 - Create endpoint for getting and adding and deleting updating a User.
-- Create endpoint for getting a Cart.
-----------
-- Create endpoint where user can add product to a cart.
+
+
 - this endpoint should accept a userid and productid both should be valid or return bad request
-- Create endpoint where user can remove product from a cart
 - this endpoint should accept a userid and productid both should be valid or return bad request
 - Create endpoint where user can add product to a merchantStock
 - this endpoint should accept a productid and merchantid and stock
-- Create endpoint where user can buy a product directly without a cart
 - this endpoint should accept userid , product id , merchantid.
 - check if the merchant have the product in stock or return bad request.
 - reduce the stock from the MerchantStock.
