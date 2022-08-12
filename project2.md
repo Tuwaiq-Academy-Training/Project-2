@@ -6,10 +6,10 @@ Create E-commerce website where users can buy products ( amazon clone )
 Classes Domains :
 
 E-commerce Website :
-- Product Class: ID, name, price , categoryID , ArrayList < Comment >.
+- Product Class: ID, name, price , categoryID.
 - Category : ID , name.
 - Merchant : ID , name.
-- MerchantStock : ID , productid , merchantid , stock
+- MerchantStock : ID , productid , merchantid , stock.
 - User Class : id , username , password , email , role , balance.
 
 
@@ -70,14 +70,15 @@ User Class :
 ----------
 - Create endpoint where user can buy a product directly
 - this endpoint should accept userid , product id , merchantid.
+- check if all the given id is valid or not
 - check if the merchant have the product in stock or return bad request.
 - reduce the stock from the MerchantStock.
 - deducted the price of the product from the user balance.
 - if balance is less than the product price return bad request.
-- add to the PurchaseHistory about this purchase.
 ----------
 - Create endpoint where user can get all the rate 5 products
 ----------
+
 
 
 
