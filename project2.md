@@ -76,8 +76,6 @@ User Class :
 - deducted the price of the product from the user balance.
 - if balance is less than the product price return bad request.
 ----------
-- Create endpoint where user can get all the rate 5 products
-----------
 
 
 
