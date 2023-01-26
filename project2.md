@@ -65,17 +65,17 @@ User Class :
 
 ----------
 
-- Create endpoint where user can add product to a merchantStock
+### Create endpoint where user can add product to a merchantStock
 - this endpoint should accept a productid and merchantid  and stock
 ----------
-- Create endpoint where user can buy a product directly
+### Create endpoint where user can buy a product directly
 - this endpoint should accept userid , product id , merchantid.
 - check if all the given id is valid or not
 - check if the merchant have the product in stock or return bad request.
 - reduce the stock from the MerchantStock.
 - deducted the price of the product from the user balance.
 - if balance is less than the product price return bad request.
-----------
+
 
 
 
